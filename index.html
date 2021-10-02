@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <nav class="nav-item">
-                        <a href="" class="nav-link custom-text-gray fs-18">Learning Options</a>
+                        <a href="#options" class="nav-link custom-text-gray fs-18">Learning Options</a>
                     </nav>
                     <nav class="nav-item">
-                        <a href="" class="nav-link custom-text-gray fs-18">Reviews</a>
+                        <a href="#reviews" class="nav-link custom-text-gray fs-18">Reviews</a>
                     </nav>
                     <nav class="nav-item">
-                        <a href="" class="nav-link custom-text-gray fs-18">FAQs</a>
+                        <a href="#faq" class="nav-link custom-text-gray fs-18">FAQs</a>
                     </nav>
                 </ul>
             </div>
@@ -59,18 +59,20 @@
     </section>
 
     <!-- Learning options section -->
-    <section class="custom-bg-light p-5">
+    <section class="custom-bg-light p-5" id="options">
         <div class="container">
             <div class="h3 text-center custom-text-dark">Learning Options</div>
-            <div class="row g-4 m-5 my-4 m-md-4">
+            <div class="row g-4 my-4">
                 <div class="col-md">
                     <div class="card custom-border-blue h-100">
                         <div class="option-icon text-center">
                             <i class="fas fa-globe"></i>
                         </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Online</h5>
-                            <p class="card-text">Learn on your own pace.</p>
+                        <div class="card-body text-center mb-3">
+                            <h5 class="card-title mb-4">Online</h5>
+                            <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Iure, quas quidem possimus dolorum esse eligendi?</p>
+                            <button type="button" class="btn btn-primary custom-bg-blue btn-bg">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -80,8 +82,10 @@
                             <i class="fas fa-plus"></i>
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title">Online + In Person</h3>
-                            <p class="card-text">Learn at home and in the class.</p>
+                            <h5 class="card-title mb-4">Online + In Person</h3>
+                            <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Iure, quas quidem possimus dolorum esse eligendi?</p>
+                             <button type="button" class="btn btn-primary custom-bg-blue btn-bg">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -91,14 +95,152 @@
                             <i class="fas fa-user-friends"></i>
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title">In Person</h5>
-                            <p class="card-text">Come to the class when it's scheduled.</p>
+                            <h5 class="card-title mb-4">In Person</h5>
+                            <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Iure, quas quidem possimus dolorum esse eligendi?</p>
+                             <button type="button" class="btn btn-primary custom-bg-blue btn-bg">Learn More</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Quote section -->
+    <section class="custom-bg-gray" id="reviews">
+        <div class="container">
+            <div class="col-lg-7 custom-text-dark m-auto p-5">
+                <p class="quote fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                    mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                    Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                    Nunc ullamcorper quis metus ut tempus.</p>
+                <div class="author h6 text-end">-Author.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action section -->
+    <section class="custom-bg-light px-sm-5 py-5">
+        <div class="container">
+            <div class="d-flex flex-column
+                        flex-sm-row
+                        justify-content-sm-evenly
+                        align-items-center
+                        custom-bg-blue
+                        rounded-3
+                        p-3
+                        p-sm-5 
+                        m-auto
+                        w-75">
+                <div class="custom-text-light">
+                    <h5>What are you waiting for?</h6>
+                    <p class="fw-lighter lh-1">Sign up for the class today to become a grandmaster tomorrow!</p>
+                </div>
+                <div class="d-grid col-sm-3">
+                    <button type="button" class="btn btn-primary custom-bg-blue border-white">
+                        Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs section -->
+    <section class="p-5" id="faq">
+        <div class="container">
+            <div class="h3 text-center custom-text-dark">Frequently Asked Questions</div>
+            <div class="accordion accordion-flush my-5" id="faq01">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse01">
+                        What can be expected in a lesson?
+                    </button>
+                  </h2>
+                  <div id="collapse01" class="accordion-collapse collapse" data-bs-parent="#faq01">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                        mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                        Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                        Nunc ullamcorper quis metus ut tempus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse02">
+                        How long are lessons?
+                    </button>
+                  </h2>
+                  <div id="collapse02" class="accordion-collapse collapse" data-bs-parent="#faq01">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                            mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                            Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                            Nunc ullamcorper quis metus ut tempus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03">
+                        How does payment work?
+                    </button>
+                  </h2>
+                  <div id="collapse03" class="accordion-collapse collapse" data-bs-parent="#faq01">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                            mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                            Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                            Nunc ullamcorper quis metus ut tempus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse04">
+                        What times are lesson offered?
+                    </button>
+                  </h2>
+                  <div id="collapse04" class="accordion-collapse collapse" data-bs-parent="#faq01">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                            mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                            Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                            Nunc ullamcorper quis metus ut tempus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse05">
+                        What times are lesson offered?
+                    </button>
+                  </h2>
+                  <div id="collapse05" class="accordion-collapse collapse" data-bs-parent="#faq01">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, mi vel aliquam pulvinar,
+                            mi mi fringilla lorem, in imperdiet nulla est ut dolor. In luctus leo vel viverra vehicula.
+                            Ut eu fringilla neque, nec convallis justo. Aenean porttitor semper sem et congue. 
+                            Nunc ullamcorper quis metus ut tempus.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="custom-bg-dark p-4">
+        <div class="container">
+            <p class="custom-text-light text-center mt-3">Copyright &copy; 2021 Odin Project</p>
+        </div>
+    </footer>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
