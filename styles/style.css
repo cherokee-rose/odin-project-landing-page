@@ -1,0 +1,43 @@
+/* Custom colors for text and background */
+.custom-bg-dark {
+  background-color: #1F2937;
+}
+
+.custom-bg-blue {
+  background-color: #3882F6;
+}
+
+.custom-bg-gray {
+  background-color: #E5E7EB;
+}
+
+.custom-bg-light {
+  background-color: #F9FAF8;
+}
+
+.custom-text-dark {
+  color: #1F2937;
+}
+
+.custom-text-blue {
+  color: #3882F6;
+}
+
+.custom-text-gray {
+  color: #E5E7EB;
+}
+
+.custom-text-light {
+  color: #F9FAF8;
+}
+
+/* Custom icon-sizes */
+.option-icon {
+  font-size: 10vh;
+}
+
+/* Custom borders */
+.custom-border-blue {
+  border: 1px solid #3882F6;
+}
+/*# sourceMappingURL=style.css.map */
